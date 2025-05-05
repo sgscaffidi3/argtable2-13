@@ -31,6 +31,7 @@ USA.
 #include "argtable2.h"
 #include <limits.h>
 
+#undef EOVERFLOW
 /* local error codes */
 enum {EMINCOUNT=1,EMAXCOUNT,EBADINT,EOVERFLOW};
 
